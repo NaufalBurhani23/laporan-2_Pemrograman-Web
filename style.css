@@ -1,0 +1,48 @@
+h1{
+    color: #000000; /*memberikan warna hitam di heading 1 atau h1 */
+    font-size: 20px; /*mengatur ukuran font heading 1 atau h1 sebesar 20px */
+}
+
+/*mengatur heading 2 untuk class nama*/
+h2.nama{
+    color: #ffff00; /*warna font berwarna kuning*/
+    background-color: #0000ff; /*warna background font biru*/
+    font-size: 30px; /*ukuran font sebesar 30px*/
+}
+
+/* untuk mengatur id nim */
+#nim{ 
+    color: #0000ff;/*warna font berwarna biru*/
+    font-size: 25px;  /*ukuran font sebesar 25px*/
+}
+
+/* Membuat paragraf menjadi rata tengah */
+p{
+    text-align: center;
+}
+
+/*untuk mengatur paragraf dengan class nama*/
+p .nama{
+    text-align: center; /*teksnya agar rata tengah*/
+    font-style: italic; /*font style agar menjadi italic*/
+    background-color: #0000ff;/*warna background font biru*/
+    color: #ffff00;/*warna font berwarna kuning*/
+    display: inline-block; /* Supaya background hanya ada di teks yang telah di tentukan */
+}
+
+/*untuk mengatur kalimat yang id teks2*/
+.teks2{
+    text-align: right; /*teksnya agar rata kanan*/
+}
+
+/*mengatur kata amet di paragraf yang dipisah menggunakan span*/
+.teks2 span{
+    font-style: italic; /*font style agar menjadi italic*/
+    background-color: #ffff00; /*warna background font kuning*/
+}
+
+h3 a{
+    color: #000000; /*warna background font hitam*/
+    text-decoration: none;
+    font-size: 15px;/*ukuran font sebesar px*/
+}
