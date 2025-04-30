@@ -43,6 +43,6 @@ p .nama{
 
 h3 a{
     color: #000000; /*warna background font hitam*/
-    text-decoration: none;
+    text-decoration: none; /* Menghapus garis bawah pada link */
     font-size: 15px;/*ukuran font sebesar px*/
 }
